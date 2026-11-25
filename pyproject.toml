@@ -1,0 +1,8 @@
+[project]
+name = "codebench"
+version = "0.1.0"
+description = "A small evaluation harness for function-level code generation benchmarks"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
